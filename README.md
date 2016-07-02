@@ -1,5 +1,10 @@
 # Piano
-piano project for FCSN
+Piano project for FCSN
 
 
-Project specs:
+This app features two modes: free play and song-follow.
+
+During free play, pressing down on any of the music keys causes the note to be played.
+
+During song-follow mode, the user will need to press down on the key that is highlighted. If they key needs to be pressed multiple times, the key will flash the same color.  
+
