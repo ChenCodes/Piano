@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D131C671D458814005A9640 /* lefthand.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C651D458814005A9640 /* lefthand.png */; };
+		6D131C681D458814005A9640 /* righthand.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C661D458814005A9640 /* righthand.png */; };
+		6D131C731D45DE1A005A9640 /* l1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C691D45DE1A005A9640 /* l1.png */; };
+		6D131C741D45DE1A005A9640 /* l2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6A1D45DE1A005A9640 /* l2.png */; };
+		6D131C751D45DE1A005A9640 /* l3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6B1D45DE1A005A9640 /* l3.png */; };
+		6D131C761D45DE1A005A9640 /* l4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6C1D45DE1A005A9640 /* l4.png */; };
+		6D131C771D45DE1A005A9640 /* l5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6D1D45DE1A005A9640 /* l5.png */; };
+		6D131C781D45DE1A005A9640 /* r1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6E1D45DE1A005A9640 /* r1.png */; };
+		6D131C791D45DE1A005A9640 /* r2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C6F1D45DE1A005A9640 /* r2.png */; };
+		6D131C7A1D45DE1A005A9640 /* r3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C701D45DE1A005A9640 /* r3.png */; };
+		6D131C7B1D45DE1A005A9640 /* r4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C711D45DE1A005A9640 /* r4.png */; };
+		6D131C7C1D45DE1A005A9640 /* r5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D131C721D45DE1A005A9640 /* r5.png */; };
+		6DAC04021D3352E700F5C387 /* C1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC03FF1D3352E700F5C387 /* C1.mp3 */; };
+		6DAC04031D3352E700F5C387 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04001D3352E700F5C387 /* C2.mp3 */; };
+		6DAC04041D3352E700F5C387 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04011D3352E700F5C387 /* C3.mp3 */; };
+		6DAC04071D33574F00F5C387 /* D1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04051D33574F00F5C387 /* D1.mp3 */; };
+		6DAC04081D33574F00F5C387 /* D2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04061D33574F00F5C387 /* D2.mp3 */; };
+		6DAC040B1D3358BE00F5C387 /* E1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04091D3358BE00F5C387 /* E1.mp3 */; };
+		6DAC040C1D3358BE00F5C387 /* E2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC040A1D3358BE00F5C387 /* E2.mp3 */; };
+		6DAC040F1D3359D500F5C387 /* F1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC040D1D3359D500F5C387 /* F1.mp3 */; };
+		6DAC04101D3359D500F5C387 /* F2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC040E1D3359D500F5C387 /* F2.mp3 */; };
+		6DAC04131D335B3400F5C387 /* G1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04111D335B3400F5C387 /* G1.mp3 */; };
+		6DAC04141D335B3400F5C387 /* G2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04121D335B3400F5C387 /* G2.mp3 */; };
+		6DAC04171D335C3B00F5C387 /* A1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04151D335C3B00F5C387 /* A1.mp3 */; };
+		6DAC04181D335C3B00F5C387 /* A2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04161D335C3B00F5C387 /* A2.mp3 */; };
+		6DAC041B1D335DAC00F5C387 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04191D335DAC00F5C387 /* B1.mp3 */; };
+		6DAC041C1D335DAC00F5C387 /* B2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC041A1D335DAC00F5C387 /* B2.mp3 */; };
+		6DAC041F1D34120500F5C387 /* C#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC041D1D34120500F5C387 /* C#1.mp3 */; };
+		6DAC04201D34120500F5C387 /* C#2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC041E1D34120500F5C387 /* C#2.mp3 */; };
+		6DAC04231D34131100F5C387 /* D#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04211D34131100F5C387 /* D#1.mp3 */; };
+		6DAC04241D34131100F5C387 /* D#2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04221D34131100F5C387 /* D#2.mp3 */; };
+		6DAC04271D3413EB00F5C387 /* F#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04251D3413EB00F5C387 /* F#1.mp3 */; };
+		6DAC04281D3413EB00F5C387 /* F#2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04261D3413EB00F5C387 /* F#2.mp3 */; };
+		6DAC042B1D3414B800F5C387 /* Ab1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04291D3414B800F5C387 /* Ab1.mp3 */; };
+		6DAC042C1D3414B800F5C387 /* Ab2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC042A1D3414B800F5C387 /* Ab2.mp3 */; };
+		6DAC042F1D34155C00F5C387 /* Bb1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC042D1D34155C00F5C387 /* Bb1.mp3 */; };
+		6DAC04301D34155C00F5C387 /* Bb2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC042E1D34155C00F5C387 /* Bb2.mp3 */; };
+		6DAC04321D34204600F5C387 /* C#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC04311D34204600F5C387 /* C#3.mp3 */; };
+		6DC8B3A51D309898005C29E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8B3A41D309898005C29E5 /* AppDelegate.swift */; };
+		6DC8B3A71D309898005C29E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8B3A61D309898005C29E5 /* ViewController.swift */; };
+		6DC8B3AA1D309898005C29E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8B3A81D309898005C29E5 /* Main.storyboard */; };
+		6DC8B3AC1D309898005C29E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8B3AB1D309898005C29E5 /* Assets.xcassets */; };
+		6DC8B3AF1D309898005C29E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8B3AD1D309898005C29E5 /* LaunchScreen.storyboard */; };
+		6DC8B3BA1D309898005C29E5 /* PianoKeyBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8B3B91D309898005C29E5 /* PianoKeyBoardTests.swift */; };
+		6DC8B3C51D309898005C29E5 /* PianoKeyBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8B3C41D309898005C29E5 /* PianoKeyBoardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DC8B3B61D309898005C29E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC8B3991D309898005C29E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC8B3A01D309898005C29E5;
+			remoteInfo = PianoKeyBoard;
+		};
+		6DC8B3C11D309898005C29E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC8B3991D309898005C29E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC8B3A01D309898005C29E5;
+			remoteInfo = PianoKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D131C651D458814005A9640 /* lefthand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lefthand.png; sourceTree = "<group>"; };
+		6D131C661D458814005A9640 /* righthand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = righthand.png; sourceTree = "<group>"; };
+		6D131C691D45DE1A005A9640 /* l1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l1.png; sourceTree = "<group>"; };
+		6D131C6A1D45DE1A005A9640 /* l2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l2.png; sourceTree = "<group>"; };
+		6D131C6B1D45DE1A005A9640 /* l3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l3.png; sourceTree = "<group>"; };
+		6D131C6C1D45DE1A005A9640 /* l4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l4.png; sourceTree = "<group>"; };
+		6D131C6D1D45DE1A005A9640 /* l5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l5.png; sourceTree = "<group>"; };
+		6D131C6E1D45DE1A005A9640 /* r1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r1.png; sourceTree = "<group>"; };
+		6D131C6F1D45DE1A005A9640 /* r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r2.png; sourceTree = "<group>"; };
+		6D131C701D45DE1A005A9640 /* r3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r3.png; sourceTree = "<group>"; };
+		6D131C711D45DE1A005A9640 /* r4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r4.png; sourceTree = "<group>"; };
+		6D131C721D45DE1A005A9640 /* r5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r5.png; sourceTree = "<group>"; };
+		6DAC03FF1D3352E700F5C387 /* C1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C1.mp3; sourceTree = "<group>"; };
+		6DAC04001D3352E700F5C387 /* C2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C2.mp3; sourceTree = "<group>"; };
+		6DAC04011D3352E700F5C387 /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		6DAC04051D33574F00F5C387 /* D1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D1.mp3; sourceTree = "<group>"; };
+		6DAC04061D33574F00F5C387 /* D2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D2.mp3; sourceTree = "<group>"; };
+		6DAC04091D3358BE00F5C387 /* E1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E1.mp3; sourceTree = "<group>"; };
+		6DAC040A1D3358BE00F5C387 /* E2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E2.mp3; sourceTree = "<group>"; };
+		6DAC040D1D3359D500F5C387 /* F1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F1.mp3; sourceTree = "<group>"; };
+		6DAC040E1D3359D500F5C387 /* F2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F2.mp3; sourceTree = "<group>"; };
+		6DAC04111D335B3400F5C387 /* G1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G1.mp3; sourceTree = "<group>"; };
+		6DAC04121D335B3400F5C387 /* G2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G2.mp3; sourceTree = "<group>"; };
+		6DAC04151D335C3B00F5C387 /* A1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A1.mp3; sourceTree = "<group>"; };
+		6DAC04161D335C3B00F5C387 /* A2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A2.mp3; sourceTree = "<group>"; };
+		6DAC04191D335DAC00F5C387 /* B1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B1.mp3; sourceTree = "<group>"; };
+		6DAC041A1D335DAC00F5C387 /* B2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B2.mp3; sourceTree = "<group>"; };
+		6DAC041D1D34120500F5C387 /* C#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#1.mp3"; sourceTree = "<group>"; };
+		6DAC041E1D34120500F5C387 /* C#2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#2.mp3"; sourceTree = "<group>"; };
+		6DAC04211D34131100F5C387 /* D#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#1.mp3"; sourceTree = "<group>"; };
+		6DAC04221D34131100F5C387 /* D#2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#2.mp3"; sourceTree = "<group>"; };
+		6DAC04251D3413EB00F5C387 /* F#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#1.mp3"; sourceTree = "<group>"; };
+		6DAC04261D3413EB00F5C387 /* F#2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#2.mp3"; sourceTree = "<group>"; };
+		6DAC04291D3414B800F5C387 /* Ab1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ab1.mp3; sourceTree = "<group>"; };
+		6DAC042A1D3414B800F5C387 /* Ab2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ab2.mp3; sourceTree = "<group>"; };
+		6DAC042D1D34155C00F5C387 /* Bb1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bb1.mp3; sourceTree = "<group>"; };
+		6DAC042E1D34155C00F5C387 /* Bb2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bb2.mp3; sourceTree = "<group>"; };
+		6DAC04311D34204600F5C387 /* C#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#3.mp3"; sourceTree = "<group>"; };
+		6DC8B3A11D309898005C29E5 /* PianoKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC8B3A41D309898005C29E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DC8B3A61D309898005C29E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DC8B3A91D309898005C29E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC8B3AB1D309898005C29E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC8B3AE1D309898005C29E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC8B3B01D309898005C29E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC8B3B51D309898005C29E5 /* PianoKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC8B3B91D309898005C29E5 /* PianoKeyBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyBoardTests.swift; sourceTree = "<group>"; };
+		6DC8B3BB1D309898005C29E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC8B3C01D309898005C29E5 /* PianoKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC8B3C41D309898005C29E5 /* PianoKeyBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyBoardUITests.swift; sourceTree = "<group>"; };
+		6DC8B3C61D309898005C29E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC8B39E1D309898005C29E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3B21D309898005C29E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3BD1D309898005C29E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D131C641D4587D0005A9640 /* Hand */ = {
+			isa = PBXGroup;
+			children = (
+				6D131C651D458814005A9640 /* lefthand.png */,
+				6D131C661D458814005A9640 /* righthand.png */,
+				6D131C691D45DE1A005A9640 /* l1.png */,
+				6D131C6A1D45DE1A005A9640 /* l2.png */,
+				6D131C6B1D45DE1A005A9640 /* l3.png */,
+				6D131C6C1D45DE1A005A9640 /* l4.png */,
+				6D131C6D1D45DE1A005A9640 /* l5.png */,
+				6D131C6E1D45DE1A005A9640 /* r1.png */,
+				6D131C6F1D45DE1A005A9640 /* r2.png */,
+				6D131C701D45DE1A005A9640 /* r3.png */,
+				6D131C711D45DE1A005A9640 /* r4.png */,
+				6D131C721D45DE1A005A9640 /* r5.png */,
+			);
+			name = Hand;
+			sourceTree = "<group>";
+		};
+		6DAC03FE1D3352B600F5C387 /* KeyAudio */ = {
+			isa = PBXGroup;
+			children = (
+				6DAC03FF1D3352E700F5C387 /* C1.mp3 */,
+				6DAC04001D3352E700F5C387 /* C2.mp3 */,
+				6DAC04011D3352E700F5C387 /* C3.mp3 */,
+				6DAC04051D33574F00F5C387 /* D1.mp3 */,
+				6DAC04061D33574F00F5C387 /* D2.mp3 */,
+				6DAC04091D3358BE00F5C387 /* E1.mp3 */,
+				6DAC040A1D3358BE00F5C387 /* E2.mp3 */,
+				6DAC040D1D3359D500F5C387 /* F1.mp3 */,
+				6DAC040E1D3359D500F5C387 /* F2.mp3 */,
+				6DAC04111D335B3400F5C387 /* G1.mp3 */,
+				6DAC04121D335B3400F5C387 /* G2.mp3 */,
+				6DAC04151D335C3B00F5C387 /* A1.mp3 */,
+				6DAC04161D335C3B00F5C387 /* A2.mp3 */,
+				6DAC04191D335DAC00F5C387 /* B1.mp3 */,
+				6DAC041A1D335DAC00F5C387 /* B2.mp3 */,
+				6DAC041D1D34120500F5C387 /* C#1.mp3 */,
+				6DAC041E1D34120500F5C387 /* C#2.mp3 */,
+				6DAC04311D34204600F5C387 /* C#3.mp3 */,
+				6DAC04211D34131100F5C387 /* D#1.mp3 */,
+				6DAC04221D34131100F5C387 /* D#2.mp3 */,
+				6DAC04251D3413EB00F5C387 /* F#1.mp3 */,
+				6DAC04261D3413EB00F5C387 /* F#2.mp3 */,
+				6DAC04291D3414B800F5C387 /* Ab1.mp3 */,
+				6DAC042A1D3414B800F5C387 /* Ab2.mp3 */,
+				6DAC042D1D34155C00F5C387 /* Bb1.mp3 */,
+				6DAC042E1D34155C00F5C387 /* Bb2.mp3 */,
+			);
+			name = KeyAudio;
+			sourceTree = "<group>";
+		};
+		6DC8B3981D309898005C29E5 = {
+			isa = PBXGroup;
+			children = (
+				6DC8B3A31D309898005C29E5 /* PianoKeyBoard */,
+				6DC8B3B81D309898005C29E5 /* PianoKeyBoardTests */,
+				6DC8B3C31D309898005C29E5 /* PianoKeyBoardUITests */,
+				6DC8B3A21D309898005C29E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC8B3A21D309898005C29E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8B3A11D309898005C29E5 /* PianoKeyBoard.app */,
+				6DC8B3B51D309898005C29E5 /* PianoKeyBoardTests.xctest */,
+				6DC8B3C01D309898005C29E5 /* PianoKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC8B3A31D309898005C29E5 /* PianoKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8B3A41D309898005C29E5 /* AppDelegate.swift */,
+				6DC8B3A61D309898005C29E5 /* ViewController.swift */,
+				6DC8B3A81D309898005C29E5 /* Main.storyboard */,
+				6DC8B3AB1D309898005C29E5 /* Assets.xcassets */,
+				6DC8B3AD1D309898005C29E5 /* LaunchScreen.storyboard */,
+				6DC8B3B01D309898005C29E5 /* Info.plist */,
+				6D131C641D4587D0005A9640 /* Hand */,
+				6DAC03FE1D3352B600F5C387 /* KeyAudio */,
+			);
+			path = PianoKeyBoard;
+			sourceTree = "<group>";
+		};
+		6DC8B3B81D309898005C29E5 /* PianoKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8B3B91D309898005C29E5 /* PianoKeyBoardTests.swift */,
+				6DC8B3BB1D309898005C29E5 /* Info.plist */,
+			);
+			path = PianoKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		6DC8B3C31D309898005C29E5 /* PianoKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8B3C41D309898005C29E5 /* PianoKeyBoardUITests.swift */,
+				6DC8B3C61D309898005C29E5 /* Info.plist */,
+			);
+			path = PianoKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC8B3A01D309898005C29E5 /* PianoKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC8B3C91D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoard" */;
+			buildPhases = (
+				6DC8B39D1D309898005C29E5 /* Sources */,
+				6DC8B39E1D309898005C29E5 /* Frameworks */,
+				6DC8B39F1D309898005C29E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoKeyBoard;
+			productName = PianoKeyBoard;
+			productReference = 6DC8B3A11D309898005C29E5 /* PianoKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DC8B3B41D309898005C29E5 /* PianoKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC8B3CC1D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoardTests" */;
+			buildPhases = (
+				6DC8B3B11D309898005C29E5 /* Sources */,
+				6DC8B3B21D309898005C29E5 /* Frameworks */,
+				6DC8B3B31D309898005C29E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC8B3B71D309898005C29E5 /* PBXTargetDependency */,
+			);
+			name = PianoKeyBoardTests;
+			productName = PianoKeyBoardTests;
+			productReference = 6DC8B3B51D309898005C29E5 /* PianoKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DC8B3BF1D309898005C29E5 /* PianoKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC8B3CF1D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoardUITests" */;
+			buildPhases = (
+				6DC8B3BC1D309898005C29E5 /* Sources */,
+				6DC8B3BD1D309898005C29E5 /* Frameworks */,
+				6DC8B3BE1D309898005C29E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC8B3C21D309898005C29E5 /* PBXTargetDependency */,
+			);
+			name = PianoKeyBoardUITests;
+			productName = PianoKeyBoardUITests;
+			productReference = 6DC8B3C01D309898005C29E5 /* PianoKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC8B3991D309898005C29E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Chang";
+				TargetAttributes = {
+					6DC8B3A01D309898005C29E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B4G6TZM9F3;
+					};
+					6DC8B3B41D309898005C29E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DC8B3A01D309898005C29E5;
+					};
+					6DC8B3BF1D309898005C29E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DC8B3A01D309898005C29E5;
+					};
+				};
+			};
+			buildConfigurationList = 6DC8B39C1D309898005C29E5 /* Build configuration list for PBXProject "PianoKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC8B3981D309898005C29E5;
+			productRefGroup = 6DC8B3A21D309898005C29E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC8B3A01D309898005C29E5 /* PianoKeyBoard */,
+				6DC8B3B41D309898005C29E5 /* PianoKeyBoardTests */,
+				6DC8B3BF1D309898005C29E5 /* PianoKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC8B39F1D309898005C29E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAC04281D3413EB00F5C387 /* F#2.mp3 in Resources */,
+				6D131C7C1D45DE1A005A9640 /* r5.png in Resources */,
+				6DAC041B1D335DAC00F5C387 /* B1.mp3 in Resources */,
+				6DAC04131D335B3400F5C387 /* G1.mp3 in Resources */,
+				6DAC042F1D34155C00F5C387 /* Bb1.mp3 in Resources */,
+				6DAC04101D3359D500F5C387 /* F2.mp3 in Resources */,
+				6D131C741D45DE1A005A9640 /* l2.png in Resources */,
+				6DAC04031D3352E700F5C387 /* C2.mp3 in Resources */,
+				6DAC04321D34204600F5C387 /* C#3.mp3 in Resources */,
+				6DAC04021D3352E700F5C387 /* C1.mp3 in Resources */,
+				6DAC04081D33574F00F5C387 /* D2.mp3 in Resources */,
+				6DAC04171D335C3B00F5C387 /* A1.mp3 in Resources */,
+				6DAC041F1D34120500F5C387 /* C#1.mp3 in Resources */,
+				6DAC04141D335B3400F5C387 /* G2.mp3 in Resources */,
+				6DAC04271D3413EB00F5C387 /* F#1.mp3 in Resources */,
+				6D131C7B1D45DE1A005A9640 /* r4.png in Resources */,
+				6DAC041C1D335DAC00F5C387 /* B2.mp3 in Resources */,
+				6D131C761D45DE1A005A9640 /* l4.png in Resources */,
+				6DAC04241D34131100F5C387 /* D#2.mp3 in Resources */,
+				6D131C771D45DE1A005A9640 /* l5.png in Resources */,
+				6DAC04181D335C3B00F5C387 /* A2.mp3 in Resources */,
+				6D131C7A1D45DE1A005A9640 /* r3.png in Resources */,
+				6DAC04301D34155C00F5C387 /* Bb2.mp3 in Resources */,
+				6DAC042C1D3414B800F5C387 /* Ab2.mp3 in Resources */,
+				6DAC040B1D3358BE00F5C387 /* E1.mp3 in Resources */,
+				6D131C681D458814005A9640 /* righthand.png in Resources */,
+				6D131C781D45DE1A005A9640 /* r1.png in Resources */,
+				6DAC04041D3352E700F5C387 /* C3.mp3 in Resources */,
+				6D131C731D45DE1A005A9640 /* l1.png in Resources */,
+				6D131C751D45DE1A005A9640 /* l3.png in Resources */,
+				6DAC042B1D3414B800F5C387 /* Ab1.mp3 in Resources */,
+				6DAC04201D34120500F5C387 /* C#2.mp3 in Resources */,
+				6DAC040F1D3359D500F5C387 /* F1.mp3 in Resources */,
+				6DAC04231D34131100F5C387 /* D#1.mp3 in Resources */,
+				6DAC040C1D3358BE00F5C387 /* E2.mp3 in Resources */,
+				6DC8B3AF1D309898005C29E5 /* LaunchScreen.storyboard in Resources */,
+				6DAC04071D33574F00F5C387 /* D1.mp3 in Resources */,
+				6D131C671D458814005A9640 /* lefthand.png in Resources */,
+				6DC8B3AC1D309898005C29E5 /* Assets.xcassets in Resources */,
+				6D131C791D45DE1A005A9640 /* r2.png in Resources */,
+				6DC8B3AA1D309898005C29E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3B31D309898005C29E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3BE1D309898005C29E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC8B39D1D309898005C29E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC8B3A71D309898005C29E5 /* ViewController.swift in Sources */,
+				6DC8B3A51D309898005C29E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3B11D309898005C29E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC8B3BA1D309898005C29E5 /* PianoKeyBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8B3BC1D309898005C29E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC8B3C51D309898005C29E5 /* PianoKeyBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DC8B3B71D309898005C29E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC8B3A01D309898005C29E5 /* PianoKeyBoard */;
+			targetProxy = 6DC8B3B61D309898005C29E5 /* PBXContainerItemProxy */;
+		};
+		6DC8B3C21D309898005C29E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC8B3A01D309898005C29E5 /* PianoKeyBoard */;
+			targetProxy = 6DC8B3C11D309898005C29E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DC8B3A81D309898005C29E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC8B3A91D309898005C29E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC8B3AD1D309898005C29E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC8B3AE1D309898005C29E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC8B3C71D309898005C29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC8B3C81D309898005C29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC8B3CA1D309898005C29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PianoKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6DC8B3CB1D309898005C29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PianoKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6DC8B3CD1D309898005C29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PianoKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoKeyBoard.app/PianoKeyBoard";
+			};
+			name = Debug;
+		};
+		6DC8B3CE1D309898005C29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PianoKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoKeyBoard.app/PianoKeyBoard";
+			};
+			name = Release;
+		};
+		6DC8B3D01D309898005C29E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PianoKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PianoKeyBoard;
+			};
+			name = Debug;
+		};
+		6DC8B3D11D309898005C29E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PianoKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laskdaf.PianoKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PianoKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC8B39C1D309898005C29E5 /* Build configuration list for PBXProject "PianoKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC8B3C71D309898005C29E5 /* Debug */,
+				6DC8B3C81D309898005C29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC8B3C91D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC8B3CA1D309898005C29E5 /* Debug */,
+				6DC8B3CB1D309898005C29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC8B3CC1D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC8B3CD1D309898005C29E5 /* Debug */,
+				6DC8B3CE1D309898005C29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC8B3CF1D309898005C29E5 /* Build configuration list for PBXNativeTarget "PianoKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC8B3D01D309898005C29E5 /* Debug */,
+				6DC8B3D11D309898005C29E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC8B3991D309898005C29E5 /* Project object */;
+}
