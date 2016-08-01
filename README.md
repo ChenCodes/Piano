@@ -1,4 +1,5 @@
 # Piano
+![Demo](https://github.com/ChenCodes/Piano/blob/master/pianoGif.gif)
 
 ####Project Inspiration
 I developed this app with Kevin Chang (Github - laskdaf) for the Friends of Children with Special Needs(FCSN) organization. 
