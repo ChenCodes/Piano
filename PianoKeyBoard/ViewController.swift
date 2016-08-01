@@ -104,14 +104,21 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var song2_OldMacDonald = ["c2-r2", "c2-r2", "c2-r2", "g1-l3", "a1-l2", "a1-l2", "g1-l3", "e2-r4", "e2-r4", "d2-r3", "d2-r3", "c2-r2"]
     
-    var song3_ILoveYou = ["g1-r2", "e1-l1", "g1-r2", "g1-r2", "e1-l1", "g1-r2", "a1-r3", "g1-r2", "f1-r1", "e1-l1", "d1-l2", "e1-l1", "f1-r1", "e1-l1", "f1-r1", "g1-r2", "c1-l3", "c1-l3", "c1-l3", "c1-l3", "c1-l3", "d1-l2", "e1-l1", "f1-r1", "g1-r2", "g1-r2", "d1-l2", "d1-l2", "f1-r1", "e1-l1", "d1-l2", "c1-l1", "g1-r2", "e1-l1", "g1-r2", "g1-r2", "e1-l1", "g1-r2", "a1-r3", "g1-r2", "f1-r1", "e1-l1", "d1-l2", "e1-l1", "f1-r1", "e1-l1", "f1-r1", "g1-r2", "c1-l3", "c1-l3", "c1-l3", "c1-l3", "c1-l3", "d1-l2", "e1-l1", "f1-r1", "g1-r2", "g1-r2", "d1-l2", "d1-l2", "f1-r1", "e1-l1", "d1-l2", "c1-l3"]
+    var song3_ILoveYou = ["g1-r3", "e1-l2", "g1-r3", "g1-r3", "e1-l2", "g1-r3",
+                          "a1-r4", "g1-r3", "f1-r2", "e1-l2", "d1-l3", "e1-l2", "f1-r2",
+                          "e1-l2", "f1-r2", "g1-r3", "c1-l4", "c1-l4", "c1-l4", "c1-l4", "c1-l4", "d1-l3", "e1-l2", "f1-r2", "g1-r3",
+                          "g1-r3", "d1-l3", "d1-l3", "f1-r2", "e1-l2", "d1-l3", "c1-l4",
+                          "g1-r3", "e1-l2", "g1-r3", "g1-r3", "e1-l2", "g1-r3",
+                          "a1-r4", "g1-r3", "f1-r2", "e1-l2", "d1-l3", "e1-l2", "f1-r2",
+                          "e1-l2", "f1-r2", "g1-r3", "c1-l4", "c1-l4", "c1-l4", "c1-l4", "c1-l4", "d1-l3", "e1-l2", "f1-r2", "g1-r3",
+                          "g1-r3", "d1-l3", "d1-l3", "f1-r2", "e1-l2", "d1-l3", "c1-l4",]
     
     var song4_C2MajScale = ["c1-l4", "d1-l3", "e1-l2", "f1-l1", "g1-r1", "a1-r2", "b1-r3", "c2-r4", "b1-r3", "a1-r2", "g1-r1", "f1-l1", "e1-l2", "d1-l3", "c1-l4"]
     
-    var song5_HappyBDay = ["c1-l4", "c1-l4", "d1-l3", "c1-l4", "f1-l1", "e1-l2",
-                           "c1-l4", "c1-l4", "d1-l3", "c1-l4", "g1-r1", "f1-l1",
-                           "c1-l4", "c1-l4", "c2-r4", "a1-r2", "f1-l1", "e1-l2", "d1-l3",
-                           "bb1-r3", "bb1-r3", "a1-r2", "f1-l1", "g1-r1", "f1-l1"]
+    var song5_HappyBDay = ["c1-l3", "c1-l3", "d1-l2", "c1-l3", "f1-r2", "e1-r1",
+                           "c1-l3", "c1-l3", "d1-l2", "c1-l3", "g1-r3", "f1-r2",
+                           "c1-l3", "c1-l3", "c2-r5", "a1-r3", "f1-r2", "e1-r1", "d1-l2",
+                           "bb1-r4", "bb1-r4", "a1-r3", "f1-r1", "g1-r2", "f1-r1"]
     
     var currentSong: [String]! // Keeps track of the current sound
     
