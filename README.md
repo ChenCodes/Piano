@@ -19,4 +19,10 @@ Here are the songs that are built into the app:
   
 Built in tempo - user has the option to select what tempo they want the song to be played at. 
 
-Project completion date: 7/31/16
+####Availability on Appstore:
+Not available on Appstore due to possible issues with copyrighted songs.
+
+####Compatibility with Devices:
+Only compatible with Ipad for now. 
+
+####Project completion date: 7/31/16
